@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 540px;
+    background-image: url(../img/mobile/bg_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu_item {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.menu_item a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 13px 5px 13px;
+}
+
+.menu_item a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px 13px 5px 13px;
+}
+
+
+.text_de {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    top: 176px;
+    text-align: center;
+    margin-top: 133px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    top: 230px;
+    text-align: center;
+    margin-top: 40px;
+    width: 291px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sub_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    top:  310px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 37px;
+} 
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 287px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    
+    padding: 11px 50px 11px 50px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+}
+
+.button a :hover {
+    cursor: pointer;
+}
+
+                                            /* partners */
+
+.partners {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_partners {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+    margin-top: 220px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hunter_box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hunter_img {
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.logo_tv {
+    background-color: #ff4e50;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.hunter_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.hunter_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    tab-size: 14px;
+    color: #7a7a7a;
+    text-align: center;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.logo_glass {
+    background-color: #ffa507;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.logo_cofee {
+    background-color: #1cd7ad;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.logo_tw {
+    background-color: #4e73db;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.button_1 a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff4e50;
+    margin-left: 16px;
+    padding: 11px 65px 11px 65px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+}
+
+.button_1 a:hover {
+    cursor: pointer;
+    background-color: #ff4e50;
+    color: #ffffff;
+}
+
+.button_1 {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+                                          /* media */
+
+@media (min-width: 768px) {
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 700px;
+        background-image: url(../img/tablet/bg_tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    .header {
+        width: 675px;
+        margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .menu_item {
+        list-style: none;
+        margin-top: 50px;
+    }
+    
+    .menu_item a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 5px 13px 5px 13px;
+    }
+    
+    .menu_item a:hover {
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+        padding: 5px 13px 5px 13px;
+    }
+    .text_de {
+        font-weight: 700;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 48px;
+    }
+    
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        color: #ffffff;
+        margin-top: 160px;
+        width: 505px;
+    }
+    
+    .sub_title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    } 
+    
+    .button {
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .button a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 11px 50px 11px 50px;
+        background-color: #ff4e50;
+        border-radius: 20px;
+    }
+    
+    .button a :hover {
+        cursor: pointer;
+    }
+
+                     /* partners */
+
+    .partners {
+        width: 580px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .title_partners {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: #333333;
+        text-align: center;
+        margin-top: 320px;
+    }
+    .hunter_box {
+        position: relative;
+    }
+    
+    .hunter_img {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 35px;
+        position: relative;
+    }
+    
+    .logo_tv {
+        background-color: #ff4e50;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 117px;
+        left: 168px;
+    }
+    
+    .hunter_name {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 24px;
+    }
+    
+    .hunter_text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        tab-size: 14px;
+        color: #7a7a7a;
+        text-align: center;
+        width: 250px;
+        margin-left: 40px;
+        margin-top: 22px;
+        margin-bottom: 60px;
+    }
+    
+    .logo_glass {
+        background-color: #ffa507;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 117px;
+        left: 168px;
+    }
+    
+    .logo_cofee {
+        background-color: #1cd7ad;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 117px;
+        left: 168px;
+    }
+    
+    .logo_tw {
+        background-color: #4e73db;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 117px;
+        left: 168px;
+    }
+    
+    .button_1 a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ff4e50;
+        padding: 11px 65px 11px 65px;
+        border: 2px solid #ff4e50;
+        border-radius: 20px;
+    }
+    
+    .button_1 a:hover {
+        cursor: pointer;
+        background-color: #ff4e50;
+        color: #ffffff;
+    }
+    .button_1 {
+        margin-top: 0;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+                         /* media_desktop */
+
+@media (min-width: 1440px) {
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 700px;
+        background-image: url(../img/screen/desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    .header {
+        width: 940px;
+        margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .menu_item {
+        list-style: none;
+        margin-top: 50px;
+    }
+    
+    .menu_item a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 5px 13px 5px 13px;
+    }
+    
+    .menu_item a:hover {
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+        padding: 5px 13px 5px 13px;
+    }
+    .text_de {
+        float: left;
+        font-weight: 700;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 48px;
+    }
+
+    .promo {
+        width: 503px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 160px;
+    }
+    
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        color: #ffffff;
+    }
+    
+    .sub_title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        color: #ffffff;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    } 
+    
+    .button a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 11px 50px 11px 50px;
+        background-color: #ff4e50;
+        border-radius: 20px;
+    }
+    
+    .button a :hover {
+        cursor: pointer;
+    }
+
+                     /* partners */
+
+    .partners {
+        width: calc(1440px - 300px);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 38px;
+    }
+
+    .title_partners {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: #333333;
+        text-align: center;
+        margin-top: 320px;
+    }
+
+    .hunter_box {
+        position: relative;
+    }
+    
+    .hunter_img {
+        border-radius: 50%;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 35x;
+    }
+    
+    .logo_tv {
+        background-color: #ff4e50;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 88px;
+        left: 165px;
+    }
+    
+    .hunter_name {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 24px;
+    }
+    
+    .hunter_text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        tab-size: 14px;
+        color: #7a7a7a;
+        text-align: center;
+        width: 250px;
+        margin-left: 40px;
+        margin-top: 22px;
+        margin-bottom: 60px;
+    }
+    
+    .logo_glass {
+        background-color: #ffa507;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 88px;
+        left: 165px;
+    }
+    
+    .logo_cofee {
+        background-color: #1cd7ad;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 88px;
+        left: 165px;
+    }
+    
+    .logo_tw {
+        background-color: #4e73db;
+        padding: 10px 10px 10px 10px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 88px;
+        left: 165px;
+    }
+    
+    .button_1 a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ff4e50;
+        padding: 11px 65px 11px 65px;
+        border: 2px solid #ff4e50;
+        border-radius: 20px;
+    }
+    
+    .button_1 a:hover {
+        cursor: pointer;
+        background-color: #ff4e50;
+        color: #ffffff;
+    }
+    .button_1 {
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+}
+
